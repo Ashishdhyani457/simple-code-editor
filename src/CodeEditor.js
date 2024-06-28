@@ -24,9 +24,9 @@ function CodeEditor() {
         ref={codeRef}
         value={code}
         onChange={handleChange}
-        style={{ width: '100%', minHeight: '300px' }}
+        style={{ marginLeft:"10%",width: '80%', minHeight: '300px' }}
       />
-      <pre>
+      <pre style={{ marginLeft:"10%",width: '80%', minHeight: '300px' }}>
         <code className="language-javascript">{code}</code>
       </pre>
     </div>
